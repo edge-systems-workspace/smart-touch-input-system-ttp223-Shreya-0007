@@ -36,7 +36,7 @@ void loop() {
     //     Print "Touch Detected"
     // Else
     //     Print "No Touch"
-    if (touchState == HIGH) {
+    if (touchState == LOW) {
         Serial.println("Touch Detected");
     } else {
         Serial.println("No Touch");
