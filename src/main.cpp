@@ -18,7 +18,7 @@ int touchState = 0;
 
 void setup() {
     // TODO 3: Initialize Serial communication (9600 baud rate)
-    Serial.begin(9600);
+    Serial.begin(96600);
 
     // TODO 4: Configure touch pin as INPUT
     pinMode(TOUCH_PIN, INPUT);
